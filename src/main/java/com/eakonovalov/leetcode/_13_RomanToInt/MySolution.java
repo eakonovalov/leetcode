@@ -1,13 +1,8 @@
 package com.eakonovalov.leetcode._13_RomanToInt;
 
-public class Solution {
+public class MySolution implements Solution {
 
-    public static void main(String[] args) {
-        System.out.println(new Solution().romanToInt("XIX"));
-        System.out.println(new Solution().romanToInt("LXIX"));
-    }
-
-    private int romanToInt(String s) {
+    public int romanToInt(String s) {
         int result = 0;
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);

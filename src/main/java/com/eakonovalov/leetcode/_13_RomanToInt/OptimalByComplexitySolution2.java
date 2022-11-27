@@ -1,13 +1,8 @@
 package com.eakonovalov.leetcode._13_RomanToInt;
 
-public class OptimalByComplexitySolution2 {
+public class OptimalByComplexitySolution2 implements Solution {
 
-    public static void main(String[] args) {
-        System.out.println(new OptimalByComplexitySolution2().romanToInt("XIX"));
-        System.out.println(new OptimalByComplexitySolution2().romanToInt("LXIX"));
-    }
-
-    private int romanToInt(String s) {
+    public int romanToInt(String s) {
         int n = s.length();
         int result = convert(s.charAt(n - 1));
         for (int i = n - 2; i >= 0; i--) {
