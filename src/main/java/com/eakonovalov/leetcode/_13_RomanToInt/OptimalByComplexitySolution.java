@@ -6,6 +6,7 @@ import java.util.Map;
 public class OptimalByComplexitySolution implements Solution {
 
     private static final Map<Character, Integer> ROMAN_MAP = new HashMap<>();
+
     static {
         ROMAN_MAP.put('I', 1);
         ROMAN_MAP.put('V', 5);

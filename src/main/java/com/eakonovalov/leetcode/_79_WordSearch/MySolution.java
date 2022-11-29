@@ -13,8 +13,7 @@ public class MySolution implements Solution {
                     path.add(new Point(i, j));
                     if (findNext(board, word, 1, i, j, path)) {
                         return true;
-                    }
-                    else {
+                    } else {
                         path.clear();
                     }
                 }
@@ -32,8 +31,7 @@ public class MySolution implements Solution {
             path.add(p);
             if (findNext(board, word, index + 1, i - 1, j, path)) {
                 return true;
-            }
-            else {
+            } else {
                 path.remove(path.size() - 1);
             }
         }
@@ -41,8 +39,7 @@ public class MySolution implements Solution {
             path.add(p);
             if (findNext(board, word, index + 1, i, j - 1, path)) {
                 return true;
-            }
-            else {
+            } else {
                 path.remove(path.size() - 1);
             }
         }
@@ -50,8 +47,7 @@ public class MySolution implements Solution {
             path.add(p);
             if (findNext(board, word, index + 1, i + 1, j, path)) {
                 return true;
-            }
-            else {
+            } else {
                 path.remove(path.size() - 1);
             }
         }
@@ -59,8 +55,7 @@ public class MySolution implements Solution {
             path.add(p);
             if (findNext(board, word, index + 1, i, j + 1, path)) {
                 return true;
-            }
-            else {
+            } else {
                 path.remove(path.size() - 1);
             }
         }

@@ -2,7 +2,7 @@ package com.eakonovalov.leetcode._907_SumOfSubarrayMinimums;
 
 import java.util.Stack;
 
-public class OptimalSolution implements Solution{
+public class OptimalSolution implements Solution {
 
     public int sumSubarrayMins(int[] arr) {
         int MOD = 1000000007;

@@ -1,6 +1,8 @@
 package com.eakonovalov.leetcode._2_AddTwoNumbers;
 
-public class MySolution implements Solution{
+import com.eakonovalov.leetcode.common.ListNode;
+
+public class MySolution implements Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = l1;
@@ -10,8 +12,7 @@ public class MySolution implements Solution{
             if (sum > 9) {
                 reminder = 1;
                 sum -= 10;
-            }
-            else {
+            } else {
                 reminder = 0;
             }
             l1.val = sum;

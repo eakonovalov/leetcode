@@ -20,8 +20,7 @@ public class MySolution2 implements Solution {
                             }
                             default -> result += 1;
                         }
-                    }
-                    else {
+                    } else {
                         result += 1;
                     }
                     break;
@@ -41,8 +40,7 @@ public class MySolution2 implements Solution {
                             }
                             default -> result += 10;
                         }
-                    }
-                    else {
+                    } else {
                         result += 10;
                     }
                     break;
@@ -62,8 +60,7 @@ public class MySolution2 implements Solution {
                             }
                             default -> result += 100;
                         }
-                    }
-                    else {
+                    } else {
                         result += 100;
                     }
                     break;

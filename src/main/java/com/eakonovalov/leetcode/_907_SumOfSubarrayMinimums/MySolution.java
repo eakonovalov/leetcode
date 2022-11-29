@@ -1,6 +1,6 @@
 package com.eakonovalov.leetcode._907_SumOfSubarrayMinimums;
 
-public class MySolution implements Solution{
+public class MySolution implements Solution {
 
     public int sumSubarrayMins(int[] arr) {
         long result = 0;

@@ -1,6 +1,6 @@
 package com.eakonovalov.leetcode._2_AddTwoNumbers;
 
-import com.eakonovalov.leetcode._2_AddTwoNumbers.Solution.ListNode;
+import com.eakonovalov.leetcode.common.ListNode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
