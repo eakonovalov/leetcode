@@ -8,6 +8,10 @@ class SolutionTest {
 
     @Test
     void longestPalindrome() {
-        assertEquals("bab", new MySolution().longestPalindrome("babad"));
+        assertEquals("bb", new MySolution2().longestPalindrome("cbbd"));
+        assertEquals("ccc", new MySolution2().longestPalindrome("ccc"));
+        assertEquals("bab", new MySolution2().longestPalindrome("babad"));
+        assertEquals("bbb", new MySolution2().longestPalindrome("cbbbd"));
+        assertEquals("bb", new MySolution2().longestPalindrome("bb"));
     }
 }
